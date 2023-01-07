@@ -3,12 +3,24 @@
 
 <a href="https://codeclimate.com/github/Aatem/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/2a8fe0d5dc49bd4b390e/maintainability" /></a>
 
-https://asciinema.org/a/hn8qhdOVZ7rd1qHBh07JaGCoY
+Brain games
 
-https://asciinema.org/a/sd6A6HyiROwuYSZY9WrQrmXJY
+Первая игра: Brain-even
+    Проверка на чётность.
+    <a href="https://asciinema.org/a/hn8qhdOVZ7rd1qHBh07JaGCoY" target="_blank"><img src="https://asciinema.org/a/hn8qhdOVZ7rd1qHBh07JaGCoY.svg" /></a>
 
-https://asciinema.org/a/uvIkTProbj1IZD7KoO4agtz3u
+Вторая игра: Brain-calc
+    Решение математических выражений.
+    https://asciinema.org/a/sd6A6HyiROwuYSZY9WrQrmXJY
 
-https://asciinema.org/a/Bb11KBLYmVU0HyZgt6nndr0rr
+Третья игра: Brain-gcd
+    Нахождение наибольшего общего делителя двух чисел.
+    https://asciinema.org/a/uvIkTProbj1IZD7KoO4agtz3u
 
-https://asciinema.org/a/tUMYLj5hSyaEvefJmz16bD6Wo
+Четвёртая игра: Brain-progression
+    Нахождение пропущенного числа в математической прогрессии.
+    https://asciinema.org/a/Bb11KBLYmVU0HyZgt6nndr0rr
+
+Пятая игра: Brain-prime
+    Проверка числа на простоту.
+    https://asciinema.org/a/tUMYLj5hSyaEvefJmz16bD6Wo
