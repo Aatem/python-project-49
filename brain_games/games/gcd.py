@@ -19,4 +19,4 @@ def greatest_common_divisor(number_1, number_2):
         else:
             number_2 = number_2 % number_1
         result = number_1 + number_2
-    return result
+    return str(result)
