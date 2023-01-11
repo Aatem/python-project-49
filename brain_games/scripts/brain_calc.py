@@ -5,7 +5,7 @@ import brain_games.games.calc as calc
 
 
 def main():
-    general.body_games(calc)
+    general.start_game(calc)
 
 
 if __name__ == '__main__':

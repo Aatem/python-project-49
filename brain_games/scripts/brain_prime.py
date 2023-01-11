@@ -5,7 +5,7 @@ import brain_games.games.prime as prime
 
 
 def main():
-    general.body_games(prime)
+    general.start_game(prime)
 
 
 if __name__ == '__main__':

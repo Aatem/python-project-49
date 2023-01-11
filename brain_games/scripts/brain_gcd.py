@@ -5,7 +5,7 @@ import brain_games.games.gcd as gcd
 
 
 def main():
-    general.body_games(gcd)
+    general.start_game(gcd)
 
 
 if __name__ == '__main__':

@@ -1,18 +1,18 @@
 import random
 
 
-game_rule = 'What is the result of the expression?'
+GAME_RULE = 'What is the result of the expression?'
 
 
-def current_game():
-    fir_ramdom_number = random.randint(1, 100)
-    sec_random_number = random.randint(1, 100)
-    random_symbol = random.choice([' + ', ' - ', ' * '])
-    question = str(fir_ramdom_number) + random_symbol + str(sec_random_number)
-    if random_symbol == ' + ':
-        correct_answer = str(fir_ramdom_number + sec_random_number)
-    if random_symbol == ' - ':
-        correct_answer = str(fir_ramdom_number - sec_random_number)
-    if random_symbol == ' * ':
-        correct_answer = str(fir_ramdom_number * sec_random_number)
+def generate_question_answer():
+    first_number = random.randint(1, 100)
+    second_number = random.randint(1, 100)
+    operation = random.choice([' + ', ' - ', ' * '])
+    question = str(first_number) + operation + str(second_number)
+    if operation == ' + ':
+        correct_answer = str(first_number + second_number)
+    if operation == ' - ':
+        correct_answer = str(first_number - second_number)
+    if operation == ' * ':
+        correct_answer = str(first_number * second_number)
     return question, correct_answer
